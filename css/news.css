@@ -1,0 +1,97 @@
+div{
+	/* border: solid red 1px; */
+}
+body{
+	background-image: url(../img/sharebg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+
+.main{
+	width: 1200px;
+	margin: 80px auto;
+	border: solid darkgray 1px;
+	border-radius: 30px;
+	overflow: hidden;
+	background-color: rgba(236,236,236, 0.8);
+	/* height: 1200px; */
+}
+#xinwen h2{
+	margin: 20px auto;
+	text-align: center;
+	width: 230px;
+	height: 60px;
+	line-height: 60px;
+	border: solid darkgray 1px;
+	border-radius: 30px;
+}
+.left{
+	float: left;
+/* 	width: 400px;
+	height: 300px; */
+}
+.left_p{
+	width: 400px;
+	height: 300px;
+	margin: 30px 20px;
+	border-radius: 30px;
+	overflow: hidden;
+}
+.left_p img{
+	width: 400px;
+	height: 300px;
+}
+.right{
+	float: right;
+/* 	width: 700px;
+	height: 300px; */
+}
+.right_t{
+	width: 700px;
+	height: 300px;
+	margin: 30px 5px;
+	border-radius: 30px;
+}
+.right h3{
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 30px;
+	font-size: 20px;
+}
+.right p{
+	text-indent: 2em;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+
+.footer {
+	position: fixed;
+	width: inherit;
+	/* height: 60px; */
+	text-align: center;
+	font-weight: bold;
+	background-color: #1a1a1a;
+	left: 0;
+	right: 0;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	position:absolute;
+	overflow: hidden;
+}
+
+.font02 li,.font02 a{
+	display:inline-block;
+	color: #bb7e08;
+}
+
+.span01 {
+	color: #343c24;
+	margin-left: 5px;
+	margin-right: 5px;
+}
